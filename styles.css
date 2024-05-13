@@ -1,0 +1,154 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.chat-container {
+    width: 400px;
+    height: 600px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+#chatbox {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.botText, .userText {
+    margin: 5px;
+    border-radius: 4px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.botText {
+    background-color: #e0e0e0;
+    align-self: flex-start;
+}
+
+.userText {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+    width: calc(100% - 62px);
+}
+
+button {
+    width: 60px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+}
+
+input, button {
+    height: 50px;
+}
+
+input:focus, button:focus {
+    outline: none;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    width: 350px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #0077b6;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#chatbox {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.botText, .userText {
+    margin-bottom: 5px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    max-width: 80%;
+    line-height: 1.5;
+}
+
+.botText {
+    background-color: #f1f1f1;
+    align-self: flex-start;
+}
+
+.userText {
+    background-color: #0077b6;
+    color: white;
+    align-self: flex-end;
+}
+
+.input-area {
+    padding: 10px;
+    display: flex;
+    background: #f1f1f1;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button {
+    border: none;
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #005f87;
+}
